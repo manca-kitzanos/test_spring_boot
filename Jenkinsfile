@@ -13,7 +13,7 @@ pipeline {
         dockerimagename = "devteambflows/test-antonio"
         dockerImage = ""
         registryCredential = 'dockerhublogin'
-        datetime = `date +"%Y-%m-%dT%H%M%S"`
+        datetime = date +"%Y-%m-%dT%H%M%S"
       }
       steps {
         script {
