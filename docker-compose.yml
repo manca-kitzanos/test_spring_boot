@@ -1,0 +1,6 @@
+services:
+    antonio_api:
+      container_name: antonio_api
+      image: devteambflows/test-antonio:latest
+      restart: unless-stopped
+      network_mode: "host"

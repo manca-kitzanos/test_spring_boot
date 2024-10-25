@@ -1,0 +1,1 @@
+docker compose pull && docker compose -f docker-compose.yml -p antonio up --build -d --force-recreate
